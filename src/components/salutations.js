@@ -9,6 +9,8 @@ var myStyle = {
 	backgroundColor:'#ffffff',
 	boxShadow: '0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8',
 	borderRadius: '3px',
+	verticalAlign: 'middle',
+	lineHeight: '40px'
 }
 
 
