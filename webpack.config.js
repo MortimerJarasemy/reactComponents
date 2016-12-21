@@ -15,6 +15,10 @@ module.exports = {
 					test:/\js$/,
 					include:entryPath,
 					loaders:['babel']
+				},
+				{
+				  test: /\.scss$/,
+				  loaders: ["style-loader", "css-loader", "sass-loader"]
 				}
 			]
 		},
