@@ -70,20 +70,20 @@ class Form extends Component{
 					onChange={ this.handleChange }/>
 				  </div>
 				  <div className="col one-half">
-					<label htmlFor="family">Familia</label>
+					<label htmlFor="family">Family</label>
 					<select name="family" value={ filter.family } onChange={ this.handleChange }>
-					  <option value="">Todas</option>
+					  <option value="">All</option>
 					  { familyOptions }
 					</select>
 				  </div>
-				  <div className="col one-half" className="seasons">
+				  <div className="col one-half" className="seasons" className="formcontainer">
 				  	<fieldset>
-						<legend>"appears in season"</legend>
+						<legend>Appears in season</legend>
 						{ seasonOptions }
 					</fieldset>
 				  </div>
 				  <div className="col one-half">
-						<label for="alive">"is alive?"</label>
+						<label for="alive">Is alive?</label>
 						<input
 						type="checkbox"
 						name="alive"
